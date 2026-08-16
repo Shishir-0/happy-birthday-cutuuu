@@ -1,0 +1,26 @@
+{
+  "name": "@cutiepage-template/my-template",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cutiepage dev",
+    "build": "cutiepage build",
+    "validate": "cutiepage validate",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cutiepage/cli": "^1.0.3",
+    "@cutiepage/template-sdk": "^1.0.3",
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "framer-motion": "^12.0.0",
+    "lucide-react": "^1.0.0",
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^6.0.0"
+  }
+}

@@ -1,0 +1,22 @@
+/* Tailwind is compiled into the package at build time, scanning src/ for the
+ * classes you actually use — the same classes work in `npm run dev` and on
+ * the published page. Plain CSS below the import works too; every selector is
+ * scoped to this template automatically, so nothing leaks in or out.
+ *
+ * Use the --cp-* variables to read theme tokens the customer can change.
+ */
+@import "tailwindcss";
+
+/* REQUIRED — do not remove.
+ * Tailwind v4 discovers classes by scanning from the stylesheet's own folder,
+ * but `npm run dev` runs Next from dev/, which puts src/ outside that root.
+ * Without this line every utility class silently vanishes in dev (the build is
+ * unaffected — it scans src/ explicitly), so the preview renders unstyled
+ * while the published page looks right. */
+@source "./";
+
+.title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--cp-accent);
+}

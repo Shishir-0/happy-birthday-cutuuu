@@ -1,0 +1,68 @@
+{
+  "manifest": {
+    "template": {
+      "id": "cutiepage-romantic-cinematic",
+      "name": "Romantic Cinematic Storyteller",
+      "version": "1.0.0",
+      "description": "Commercial-grade blank template for birthdays, anniversaries, proposals, love letters, and personal storytelling on CutiePage.in.",
+      "author": "CutiePage.in Engineering",
+      "templateType": "romantic-cinematic",
+      "configVersion": "1.0.0",
+      "compatibilityVersion": "1.0.0",
+      "supportedSections": [
+        "hero",
+        "game",
+        "candle",
+        "gallery",
+        "timeline",
+        "reasons",
+        "letter",
+        "stickers",
+        "final"
+      ],
+      "defaultConfig": "defaultTemplateConfig"
+    },
+    "buildTime": "2026-08-16T17:34:09.528Z",
+    "engineVersion": "1.0.0",
+    "type": "commercial-blank-template",
+    "supportedSections": [
+      "hero",
+      "game",
+      "candle",
+      "gallery",
+      "timeline",
+      "reasons",
+      "letter",
+      "stickers",
+      "final"
+    ],
+    "files": [
+      "dist",
+      "template.json",
+      "package.json"
+    ]
+  },
+  "templateMeta": {
+    "id": "cutiepage-romantic-cinematic",
+    "name": "Romantic Cinematic Storyteller",
+    "version": "1.0.0",
+    "description": "Commercial-grade blank template for birthdays, anniversaries, proposals, love letters, and personal storytelling on CutiePage.in.",
+    "author": "CutiePage.in Engineering",
+    "templateType": "romantic-cinematic",
+    "configVersion": "1.0.0",
+    "compatibilityVersion": "1.0.0",
+    "supportedSections": [
+      "hero",
+      "game",
+      "candle",
+      "gallery",
+      "timeline",
+      "reasons",
+      "letter",
+      "stickers",
+      "final"
+    ],
+    "defaultConfig": "defaultTemplateConfig"
+  },
+  "timestamp": 1786901649529
+}
